@@ -1,0 +1,50 @@
+{"projects":
+    [
+        {
+            "name": "Game Jams",
+            "projects": [
+                {
+                    "name": "Fall 49hr Game Jam",
+                    "date": "Nov 1, 2019 - Nov 3, 2019",
+                    "link": "https://itch.io/jam/fall-49hr-game-jam-uncc-2019/rate/510412"
+                },
+                {
+                    "name": "Global Game Jam",
+                    "date": "Jan 27, 2020 - Jan 31, 2020",
+                    "link": "https://globalgamejam.org/2020/games/hex-boy-3"
+                }
+            ]
+        },
+        {
+            "name": "Hackatons",
+            "projects": [
+                {
+                    "name": "Liquid Hacks",
+                    "date": "Nov 6, 2020 - Nov 8, 2020",
+                    "link": "https://devpost.com/software/exercise-evolved"
+                }
+            ]
+        },
+        {
+            "name": "Personal Project",
+            "projects": [
+                {
+                    "name": "ASP.net Party Invites",
+                    "date": "Learning ASP.net from Pro ASP.NET Core 3, 8th Edition",
+                    "link": "https://github.com/Anthuynh81/ASP.Net"
+                },
+                {
+                    "name": "ASP.net Sports",
+                    "date": "Learning ASP.net from Pro ASP.NET Core 3, 8th Edition",
+                    "link": "https://github.com/Anthuynh81/SportsSln"
+                },
+                {
+                    "name": "Software Engineering Final",
+                    "date": "Remake of chess for my software engineering final",
+                    "link": "https://github.com/Anthuynh81/SEFinalProject"
+                }
+            ]
+        }
+    ]
+
+}

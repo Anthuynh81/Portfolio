@@ -1,0 +1,357 @@
+/*Sets the background color of the page*/
+html{
+    background-color: #fcf1d1;
+}
+
+@font-face {
+    font-family: 'Title';
+    src: URL('MerriweatherSans-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Text';
+    src: URL('Martel-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Subheading';
+    src: URL('Meeralnimai-Regular.ttf') format('truetype');
+}
+
+/*styling for the page*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Text", "Subheading", sans-serif;
+    color: #20303c;
+    background-color: white;
+}
+
+.subheading{
+    font-family: "Subheading", sans-serif;
+}
+
+.background{
+    background-color: #fcf1d1;
+}
+
+/*Changes the color of all h1-h6 elements*/
+h1, h2, h3, h4, h5, h6{
+    color: 	#47697e;
+}
+
+/*Header styling*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #a4c484;
+    z-index: 100;
+}
+
+/*Styling for the h1 element in the header*/
+header h1{
+    float:left;
+    color: #20303c;
+    vertical-align: middle;
+    padding: 0;
+    margin-top: 22px;
+}
+
+/*Styling for the navigation buttons*/
+header ul {
+    float: right;
+    list-style-type: none;
+    margin-right: 100px;
+    margin-top: 30px;
+    vertical-align: center;
+}
+
+/*Styling for the navigation buttons*/
+header ul li {
+    display: inline;
+    float: left;
+    height: 2em;
+}
+
+/*Puts an underline on the active page*/
+header ul li.active{
+    border-bottom: 3px solid #47697e;
+}
+
+/*Styling so the buttons change when hovered*/
+header ul li:hover{
+    background-color: #e6a08b;
+}
+
+/*Styling for the navigation on the header*/
+.nav-item{
+    display: block;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+/*Styling for spans inside of h1*/
+h1 span{
+    color: #2A2928; 
+    font-size: smaller;
+}
+
+/*Styling for the footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    padding-left: 20px;
+    font-size: 15px;
+    background-color: #a4c484;
+    color: 	#2A2928;
+}
+
+/*Styling for the a in the footer*/
+footer a{
+    text-decoration: none;
+    color: #2A2928;
+}
+
+/*Styling for the left side of the footer*/
+.footer-left{
+    float: left;
+    margin-top: 25px;
+}
+
+/*Styling for the right side of the footer*/
+.footer-right{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
+/*Styling for the icons on the footer*/
+.footer-social-item{
+    font-size: 30px;
+    padding: 10px;
+}
+
+/*This is the div that holds the body of the pages*/
+.content{
+    margin-top: 120px;
+    padding: 50px;
+    background-color: #fcf1d1;
+}
+
+/*This is for spacing the different cards*/
+.card-container{
+    padding: 20px;
+}
+
+/*Generic stylizing for all the cards*/
+.card{
+    position: relative;
+    border: black;
+    box-shadow: 10px 10px 20px #f0eeec;
+    height: 350px;
+    width: 750px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #faf8f1;
+}
+
+.card.skill{
+    height: 400px;
+}
+/*Specific stylizing for the card on the home page*/
+.card.home{
+    height: 450px;
+    width: 800px;
+}
+
+/*Specific stylizing for the card on the classes page*/
+.card.classes{
+    height: 300px;
+}
+
+/*Specific stylizng for the card on the contact page*/
+.card.contact{
+    height: 390px;
+}
+
+/*This is stylizing for the left side of the card*/
+.card-left{
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    left:0;
+}
+
+/*This is speical stylizing for the left side of the card on the home page*/
+.card-left.home{
+    text-align: center;
+    background-color: #d0cece;
+}
+
+/*This is specific stylizing for the left side of the card on the resume page*/
+.card-left.resume{
+    padding-left: 40px;
+}
+
+/*This stylizes the right side of the card*/
+.card-right{
+    position: absolute;
+    height: 100%;
+    width: 375px;
+    right: 30px;
+}
+
+/*This is special styling fotr the right card on the resume*/
+.card-right.resume{
+    padding-left: 40px;
+}
+
+/*This is special stylizing for the right side of the card on the home page*/
+.card-right.home{
+    margin-top: 50px;
+    width: 450px;
+}
+
+/*This is stylizing for the time in the resume*/
+.card-resume-time{
+    color: #3366ff;
+    margin-left: 50px;
+    margin-top: 75px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*Styles the GPA in the classes section*/
+.card-classes-gpa{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 75px;
+}
+
+/*Stylizes the titles in the resume*/
+.card-resume-title{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/*Styles the info on the resume*/
+.card-resume-info{
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+/*Shifts the paragraph section in resume down*/
+.card-resume-paragraph{
+    margin-top: 115px;
+}
+
+/*This is styling for the avatar*/
+.avatar{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+/*This is stylizing for important text*/
+.title{
+    font-family: 'Title', Charcoal, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 1em;
+    color: 	black;
+}
+
+/*This is styling for the buttons on the home page*/
+.home button{
+    border: 1px solid;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    border-color: #47697e;
+}
+
+/*This changes the color the button when hovered*/
+.home button:hover{
+    background-color: #ffd9cd;
+}
+
+/*This is padding for the contact form*/
+#contact-form{
+    padding:50px;
+}
+
+/*This is styling for the contact form*/
+.contactForm{
+    background-color: #f1efee;
+    border: 0;
+    border-bottom: 2px Solid lightgray;
+    color: #47697e;
+}
+
+/*This sets the height of the input fields in the contact page*/
+.contactForm.input{
+    height: 30px;
+}
+
+/*This makes the textboxes in the contact field not show an outline when clicked*/
+*:focus{
+    outline: none;
+}
+
+/*This is the styling for the productivity section in the resume*/
+.productivity{
+    padding-left: 60px;
+    position:absolute;
+    margin-top: 200px;
+    margin-left: -15px;
+}
+
+/*This makes the list in productivity be in one line*/
+ul#productivity li{
+    display: inline;
+}
+
+/*This changes the color of the text to black*/
+.black{
+    color: black;
+}
+
+/*This center aligns text*/
+.text-center{
+    text-align: center;
+}
+
+/*This is padding for the input field*/
+.padding{
+    padding:10px;
+}
+
+/*This is for the input fields in contact that need to be ajacent*/
+.inputWidth{
+    display:inline-block;
+    width: 48%;
+}
+
+/*This is padding for the submit button*/
+.padding.submit{
+    float:right;
+}
+
+/*This increases the font size to 25*/
+.fontIncrease{
+    font-size: 25;
+}

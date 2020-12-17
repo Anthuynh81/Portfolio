@@ -1,0 +1,64 @@
+{"school":
+    [
+        {
+            "name":  "Fall 2019",
+            "classes": [
+                {
+                    "name": "Data Structures and Algorithms",
+                    "title": "ITSC 2214",
+                    "grade": "Grade: A"
+                },
+                {
+                    "name": "Matrices & Linear Algebra",
+                    "title": "MATH 2164",
+                    "grade": "Grade: A"
+                }
+            ]  
+        },
+        {
+            "name": "Spring 2020",
+            "classes":[
+                {
+                    "name": "Intro to Operating Systems & Networking",
+                    "title": "ITSC 3146",
+                    "grade": "Grade: A"
+                },
+                {
+                    "name": "Logic and Algorithms",
+                    "title": "ITSC 2175",
+                    "grade": "Grade: A"
+                },
+                {
+                    "name": "Intro to Probability & Statistics",
+                    "title": "Stat 2122",
+                    "grade": "Grade: A"
+                }
+            ]
+        },
+        {
+            "name": "Fall 2020",
+            "classes":[
+                {
+                    "name": "Database Design & Implementation",
+                    "title": "ITCS 3160",
+                    "grade": "Currently Taking"
+                },
+                {
+                    "name": "Introduction to Data Mining",
+                    "title": "ITCS 3162",
+                    "grade": "Currently Taking"
+                },
+                {
+                    "name": "Web-Based Application Design & Development",
+                    "title": "ITIS 3135",
+                    "grade": "Currently Taking"
+                },
+                {
+                    "name": "Software Engineering",
+                    "title": "ITSC 3155",
+                    "grade": "Currently Taking"
+                }
+            ]
+        }
+    ]
+}
